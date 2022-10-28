@@ -38,45 +38,6 @@ CSELECTED = '\33[7m'
 CBLACKBG  = '\33[40m'
 CREDBG    = '\33[41m'
 
-# global g_uplength
-# global g_lowlength
-# global g_pwdlength
-# global g_numlength
-# global g_nonalphas
-# global g_special
-# global g_poolchar
-
-# def prLightPurple(skk):
-#     print("\033[94m {}\033[00m" .format(skk))
-
-
-# def prPurple(skk):
-#     print("\033[95m {}\033[00m" .format(skk))
-
-
-# def prCyan(skk):
-#     print("\033[96m {}\033[00m" .format(skk))
-
-
-# def prLightGray(skk):
-#     print("\033[97m {}\033[00m" .format(skk))
-
-
-# def prRed(skk): print\
-#     ("\033[91m {}\033[00m" .format(skk))
-
-
-# def prGreen(skk):
-#     print("\033[92m {}\033[00m" .format(skk))
-
-
-# def prYellow(skk):
-#     print("\033[93m {}\033[00m" .format(skk))
-
-# prCyan("Hello World, ")
-# print (TGREEN + "Das ist es!" , ENDC)
-
-
 def check_entropy(password):
     poolchar = 0
     entropy = 0.0
@@ -172,21 +133,7 @@ def check_entropy(password):
     else:
         prLightGray("Entropy is invalid")
     
-    
-
-# def clear():
-
-#     osname = os.name
-#     # for windows 
-#     if osname == 'nt': 
-#         _ = os.system('cls') 
-  
-#     # for mac and linux(here, os.name is 'posix') 
-#     else: 
-#         _ = os.system('clear') 
-  
-
-# sleep for 2 seconds after printing output 
+   
 sleep(2) 
 
 
